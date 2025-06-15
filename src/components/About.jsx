@@ -59,6 +59,7 @@ export default function About() {
           <motion.img
             src={aboutImg}
             alt="About Movic"
+            loading="lazy"
             className="w-full md:w-1/2 rounded-lg shadow-lg"
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}

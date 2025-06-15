@@ -50,6 +50,7 @@ export default function About() {
             <img
               key={index}
               src={img}
+              loading="lazy"
               alt={`About ${index}`}
               className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
                 index === current ? "opacity-100" : "opacity-0"

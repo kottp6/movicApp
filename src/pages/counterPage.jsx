@@ -33,6 +33,7 @@ export default function CounterPage() {
       <img
         src={counter}
         alt="Background"
+        loading="lazy"
         className="absolute inset-0 w-full h-full object-cover z-0"
       />
       {/* Overlay */}
