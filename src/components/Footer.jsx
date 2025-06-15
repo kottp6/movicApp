@@ -56,7 +56,7 @@ export default function Footer() {
               <Mail className="w-5 h-5 text-red-500"/> <span className="hover:text-red-500 transition">info@moviceg.com</span>
             </li>
             <li className="flex items-center gap-2">
-              <MapPin className="w-5 h-5 text-red-500"/><span className="hover:text-red-500 transition">Cairo, Egypt, 25 El-Mokattem St</span> 
+              <MapPin className="w-5 h-5 text-red-500"/><span className="hover:text-red-500 transition">October, Industrial Zone.</span> 
             </li>
           </ul>
         </motion.div>

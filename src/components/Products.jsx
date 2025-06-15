@@ -17,14 +17,15 @@ import bgImage from '../assets/counter.png';
 const products = [
   { id: 1, name: "CO2 System", image: product1 },
   { id: 2, name: "FM200 System", image: product2 },
-  { id: 3, name: "Fire Alarm Search", image: product3 },
+  { id: 3, name: "Inergen Gas Systems", image: product3 },
   { id: 4, name: "Maintenance and Refilling", image: product4 },
   { id: 5, name: "Fire Alarm Systems", image: product5 },
   { id: 6, name: "Fire Sprinkler Systems", image: product7 },
   { id: 7, name: "Automatic Fire Search", image: product6 },
   { id: 8, name: "Fire Pump Systems", image: product8 },
-  { id: 9, name: "Inergen Gas Systems", image: product9 },
-  { id: 10, name: "HVAC Systems", image: product10 },
+  
+  { id: 9, name: "HVAC Systems", image: product10 },
+  { id: 10, name: "Instllation Servies", image: product9 },
 ];
 
 export default function AllProducts() {

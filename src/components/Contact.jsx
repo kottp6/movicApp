@@ -40,10 +40,10 @@ export default function ContactsPage() {
     message: data.message,
   };
     emailjs.send(
-      'service_6sd8nc5',     // Replace with your EmailJS service ID
-      'template_pyieqs7',    // Replace with your EmailJS template ID
+      'service_zlm0dx3',     // Replace with your EmailJS service ID
+      'template_sqyktup',    // Replace with your EmailJS template ID
       templateParams,
-      '9BTjlDn3hb_HqTkxh'      // Replace with your EmailJS public key
+      'ODS6ceMEz49216HNp'      // Replace with your EmailJS public key
     )
     .then(() => {
       toast.success('Your message has been sent!');
@@ -104,7 +104,7 @@ export default function ContactsPage() {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.7 }}
         >
-          We'd Love to Hear From You
+          We Always Here For You
         </motion.h2>
 
         <form

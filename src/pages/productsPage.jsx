@@ -1,12 +1,13 @@
 import { motion } from "framer-motion";
-import product1 from '../assets/product1.png';
+import product1 from '../assets/product7.png';
 import product2 from '../assets/product2.png';
-import product3 from '../assets/product3.png';
+import product3 from '../assets/vision.png';
+import { Link } from "react-router-dom";
 
 const products = [
   {
     id: 1,
-    name: "Co2 Systems",
+    name: "Fire Sprinkler Systems",
     image: product1,
   },
   {
@@ -16,7 +17,7 @@ const products = [
   },
   {
     id: 3,
-    name: "Automatic Fire Search",
+    name: "Maintenance and Refilling",
     image: product3,
   }
 ];
@@ -77,9 +78,9 @@ export default function Products() {
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
       >
-        <button className="bg-red-600 hover:bg-red-700 text-white font-semibold px-8 py-3 rounded-full shadow-lg transition duration-300">
+        <Link to={'./products'} className="bg-red-600 hover:bg-red-700 text-white font-semibold px-8 py-3 rounded-full shadow-lg transition duration-300">
           View All Products
-        </button>
+        </Link>
       </motion.div>
     </section>
   );

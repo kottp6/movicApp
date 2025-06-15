@@ -1,27 +1,22 @@
 import { motion } from "framer-motion";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
-
+import {Link} from "react-router-dom";
 export default function ContactsPage() {
   const contactItems = [
     {
       icon: <Phone className="w-6 h-6 text-red-600" />,
       title: "Phone",
-      text: "+1 (800) 123-4567",
+      text: "+201055854777",
     },
     {
       icon: <Mail className="w-6 h-6 text-red-600" />,
       title: "Email",
-      text: "info@example.com",
+      text: "info@moviceg.com",
     },
     {
       icon: <MapPin className="w-6 h-6 text-red-600" />,
       title: "Address",
-      text: "123 Main Street, Cairo, Egypt",
-    },
-    {
-      icon: <Clock className="w-6 h-6 text-red-600" />,
-      title: "Working Hours",
-      text: "Mon - Fri: 9 AM - 6 PM",
+      text: "October, Industrial Zone",
     },
   ];
 
@@ -44,7 +39,7 @@ export default function ContactsPage() {
       </motion.div>
 
       {/* Contact Info Cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto mb-12">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto mb-12">
         {contactItems.map((item, index) => (
           <motion.div
             key={index}
@@ -69,12 +64,12 @@ export default function ContactsPage() {
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
       >
-        <motion.button
+        <Link to={'./contact'}
           whileTap={{ scale: 0.95 }}
           className="px-8 py-3 bg-red-600 text-white text-lg font-medium rounded shadow hover:bg-red-700 transition duration-300"
         >
           Send Message
-        </motion.button>
+        </Link>
       </motion.div>
     </section>
   );

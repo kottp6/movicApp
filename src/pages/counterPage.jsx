@@ -22,7 +22,7 @@ const stats = [
   {
     icon: <Award size={32} className="text-red-500" />,
     title: "Years of Excellence",
-    count: 10,
+    count: 5,
   },
 ];
 

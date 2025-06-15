@@ -4,27 +4,19 @@ export default function FightBanner() {
   return (
     <section className="relative bg-gray-100 overflow-hidden">
       {/* Content Container */}
-      <div className="mb-20 max-w-7xl mx-auto px-4 py-16 sm:py-24 flex flex-col md:flex-row items-center justify-between text-center md:text-left">
+      <div className="mb-20 max-w-7xl mx-auto px-4 py-16 sm:py-24 flex flex-col md:flex-row items-center justify-center text-center md:text-left">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="text-4xl sm:text-5xl font-extrabold text-gray-800"
+          className="text-4xl  sm:text-5xl font-extrabold text-gray-800"
         >
-          We Are Ready to{" "}
-          <span className="text-red-600">Fight</span> 24 Hours
+           Built to Resist, Designed to Protect
+          
         </motion.h2>
 
-        <motion.button
-          initial={{ opacity: 0, scale: 0.8 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-          viewport={{ once: true }}
-          className="cursor-pointer mt-8 md:mt-0 bg-gray-800 text-white px-6 py-3 font-semibold rounded hover:bg-gray-900 transition"
-        >
-          CALL US NOW
-        </motion.button>
+        
       </div>
 
       {/* Flame SVG */}
