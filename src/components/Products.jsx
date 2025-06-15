@@ -25,7 +25,7 @@ const products = [
   { id: 8, name: "Fire Pump Systems", image: product8 },
   
   { id: 9, name: "HVAC Systems", image: product10 },
-  { id: 10, name: "Instllation Servies", image: product9 },
+  { id: 10, name: "Installation Services", image: product9 },
 ];
 
 export default function AllProducts() {
