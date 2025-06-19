@@ -54,17 +54,17 @@ export default function Navbar() {
           initial={{ height: 0 }}
           animate={{ height: "auto" }}
           exit={{ height: 0 }}
-          className="md:hidden bg-slate-800 shadow-lg px-4 py-2 space-y-2"
+          className="md:hidden absolute top-16 left-0 w-full bg-slate-800 shadow-lg px-4 py-4 space-y-2 z-40"
         >
           {navLinks.map((link) => (
-            <a
+            <Link
               key={link.name}
-              href={link.href}
+              to={link.href}
               className="block text-white hover:text-red-500 transition duration-200"
               onClick={() => setIsOpen(false)}
             >
               {link.name}
-            </a>
+            </Link>
           ))}
         </motion.div>
       )}
