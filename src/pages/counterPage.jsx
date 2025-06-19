@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import CountUp from "react-countup";
 import { Award, Users, ShieldCheck, Wrench } from "lucide-react";
-import counter from "../assets/counter2.png";
+import counter from "../assets/counter2.webp";
 
 const stats = [
   {

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import serviceBg from "../assets/services1.png"; // replace with your image
-import servicesImg from "../assets/services2.png"; // replace with your image
+import serviceBg from "../assets/services1.webp"; // replace with your image
+import servicesImg from "../assets/services2.webp"; // replace with your image
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 

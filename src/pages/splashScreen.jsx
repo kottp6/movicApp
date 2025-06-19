@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import logo from "../assets/logo2.png"; // Replace with your logo path
+import logo from "../assets/logo2.webp"; // Replace with your logo path
 
 export default function SplashScreen() {
   return (

@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
-import product1 from '../assets/product7.png';
-import product2 from '../assets/product2.png';
-import product3 from '../assets/vision.png';
+import product1 from '../assets/product7.webp';
+import product2 from '../assets/product2.webp';
+import product3 from '../assets/vision.webp';
 import { Link } from "react-router-dom";
 
 const products = [

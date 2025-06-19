@@ -1,18 +1,18 @@
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import product1 from '../assets/product1.png';
-import product2 from '../assets/product2.png';
-import product3 from '../assets/product3.png';
-import product4 from '../assets/vision.png';
-import product5 from '../assets/product6.png';
-import product6 from '../assets/product4.png';
-import product7 from '../assets/product7.png';
-import product8 from '../assets/about1.png';
-import product9 from '../assets/product5.png';
-import product10 from '../assets/counter.png';
+import product1 from '../assets/product1.webp';
+import product2 from '../assets/product2.webp';
+import product3 from '../assets/product3.webp';
+import product4 from '../assets/vision.webp';
+import product5 from '../assets/product6.webp';
+import product6 from '../assets/product4.webp';
+import product7 from '../assets/product7.webp';
+import product8 from '../assets/about1.webp';
+import product9 from '../assets/product5.webp';
+import product10 from '../assets/counter.webp';
 import Navbar from './Navbar';
 import Footer from './Footer';
-import bgImage from '../assets/counter.png';
+import bgImage from '../assets/counter.webp';
 
 const products = [
   { id: 1, name: "CO2 System", image: product1 },

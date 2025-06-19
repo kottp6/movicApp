@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
-import partner1 from "../assets/partner1.png";
-import partner2 from "../assets/partner2.png";
-import partner3 from "../assets/partner3.png";
-import partner4 from "../assets/partner4.png";
-import bgImage from "../assets/SER.png";
+import partner1 from "../assets/partner1.webp";
+import partner2 from "../assets/partner2.webp";
+import partner3 from "../assets/partner3.webp";
+import partner4 from "../assets/partner4.webp";
+import bgImage from "../assets/SER.webp";
 import { useState, useEffect } from "react";
 import Footer from "./Footer";
 import Navbar from "./Navbar";

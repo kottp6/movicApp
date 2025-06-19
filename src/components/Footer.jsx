@@ -1,6 +1,6 @@
 import { Facebook, Twitter, Instagram, Mail, Phone, MapPin } from "lucide-react";
 import { motion } from "framer-motion";
-import logo from "../assets/logo2.png";
+import logo from "../assets/logo2.webp";
 import { Link } from "react-router-dom";
 
 export default function Footer() {

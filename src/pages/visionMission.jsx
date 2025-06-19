@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import visionImage from "../assets/vision.png";
-import missionImage from "../assets/mission.png";
+import visionImage from "../assets/vision.webp";
+import missionImage from "../assets/mission.webp";
 
 export default function VisionMission() {
   return (

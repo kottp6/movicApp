@@ -10,6 +10,8 @@ import Home from './components/Home';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Partners from './components/Partners';
 import { Toaster } from 'react-hot-toast';
+import NotFound from './components/NotFound'
+
 function App() {
   const [loading, setLoading] = useState(true);
 
@@ -38,6 +40,7 @@ function App() {
         <Route path="/products" element={<Products />} />
         <Route path='/partners' element={<Partners />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<NotFound/>} />
       </Routes>
       </>
     

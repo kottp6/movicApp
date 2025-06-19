@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import about1 from "../assets/about1.png";
-import about2 from "../assets/about2.png";
-import about3 from "../assets/about3.png";
+import about1 from "../assets/about1.webp";
+import about2 from "../assets/about2.webp";
+import about3 from "../assets/about3.webp";
 
 const aboutImages = [about1, about2, about3];
 

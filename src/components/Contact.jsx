@@ -2,7 +2,7 @@ import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { motion } from "framer-motion";
-import bgImage from "../assets/contact.png"; // Background image
+import bgImage from "../assets/contact.webp"; // Background image
 import { useState, useEffect } from "react";
 import Footer from "./Footer";
 import Navbar from "./Navbar";

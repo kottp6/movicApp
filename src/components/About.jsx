@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import bgImage from "../assets/about1.png";
-import aboutImg from "../assets/about2.png";
+import bgImage from "../assets/about1.webp";
+import aboutImg from "../assets/about2.webp";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 

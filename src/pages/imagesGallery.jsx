@@ -1,10 +1,10 @@
-import img1 from "../assets/gallery1.png";
-import img2 from "../assets/gallery2.png";
-import img3 from "../assets/gallery3.png";
-import img4 from "../assets/gallery4.png";
-import img5 from "../assets/gallery5.png";
-import img6 from "../assets/gallery6.png";
-import img7 from "../assets/gallery7.png";
+import img1 from "../assets/gallery1.webp";
+import img2 from "../assets/gallery2.webp";
+import img3 from "../assets/gallery3.webp";
+import img4 from "../assets/gallery4.webp";
+import img5 from "../assets/gallery5.webp";
+import img6 from "../assets/gallery6.webp";
+import img7 from "../assets/gallery7.webp";
 
 const items = [
   { type: "image", src: img1, overlay: "Quality Engineering" },
