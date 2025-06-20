@@ -72,7 +72,7 @@ export default function Hero() {
 
       {/* ✅ WhatsApp Floating Button */}
       {/* 📞 Phone Call Floating Button */}
-        <div className="fixed bottom-6 right-10 z-30">
+        <div className="fixed bottom-6 right-6 z-30">
   <a
     href="https://wa.me/201055854777"
     target="_blank"
