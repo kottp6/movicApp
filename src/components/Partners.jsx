@@ -47,7 +47,7 @@ export default function Partners() {
       >
         <div className="absolute inset-0 bg-black/70 flex items-center justify-center">
           <motion.h1
-            className="text-white text-4xl md:text-6xl font-extrabold tracking-wide drop-shadow-lg"
+            className="text-white text-center text-4xl md:text-6xl font-extrabold tracking-wide drop-shadow-lg"
             initial={{ opacity: 0, y: -30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
