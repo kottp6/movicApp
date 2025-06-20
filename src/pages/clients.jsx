@@ -37,9 +37,7 @@ export default function Clients() {
           What Our Clients Say
         </h1>
         <div className="w-24 h-1 bg-red-600 mx-auto rounded-full mb-6"></div>
-        <p className="text-lg text-gray-600">
-          Real feedback from those who trust our products and services
-        </p>
+        
       </motion.div>
 
       {/* Testimonials Grid */}

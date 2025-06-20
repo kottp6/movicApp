@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import product1 from '../assets/product7.webp';
 import product2 from '../assets/product2.webp';
-import product3 from '../assets/vision.webp';
+import product3 from '../assets/product6.webp';
 import { Link } from "react-router-dom";
 
 const products = [
@@ -17,7 +17,7 @@ const products = [
   },
   {
     id: 3,
-    name: "Maintenance and Refilling",
+    name: "Fire Alarm Systems",
     image: product3,
   }
 ];
@@ -60,6 +60,12 @@ export default function Products() {
                 alt={product.name}
                 className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
               />
+            </div>
+            
+            
+            {/* Product Title (Always Visible) */}
+            <div className="p-4 text-center">
+              <h3 className="text-xl font-semibold text-red-600">{product.name}</h3>
             </div>
 
             {/* Hover Overlay */}

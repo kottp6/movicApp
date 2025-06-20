@@ -33,9 +33,7 @@ export default function ContactsPage() {
         <h2 className="text-4xl sm:text-5xl font-extrabold bg-gradient-to-r from-red-600 via-yellow-500 to-red-600 bg-clip-text text-transparent">
           Get in Touch
         </h2>
-        <p className="mt-4 text-lg text-gray-700">
-          We’re here to help. Reach out to us through any of the ways below.
-        </p>
+        
       </motion.div>
 
       {/* Contact Info Cards */}
