@@ -18,14 +18,14 @@ export default function Navbar() {
 
   return (
     <nav className="bg-slate-900 shadow-md fixed top-0 left-0 w-full z-50">
-      <div className="w-[85%] mx-auto px-4 flex justify-between items-center h-16 md:max-w-7xl md:px-6 lg:px-1">
-        {/* Logo */}
-        <div className="flex items-center space-x-2">
-          <img src={logo} alt="MovicLogo" className="h-16 w-auto" />
+      <div className="flex justify-between items-center h-16 px-0 md:px-6 md:max-w-7xl md:mx-auto">
+        {/* Logo - no margin/padding */}
+        <div className="pl-4">
+          <img src={logo} alt="MovicLogo" className="h-14 w-auto" />
         </div>
 
         {/* Desktop Links */}
-        <div className="hidden md:flex space-x-6">
+        <div className="hidden md:flex space-x-6 pr-4">
           {navLinks.map((link) => (
             <Link
               key={link.name}
@@ -38,7 +38,7 @@ export default function Navbar() {
         </div>
 
         {/* Mobile Menu Button */}
-        <div className="md:hidden">
+        <div className="md:hidden pr-4">
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="text-white focus:outline-none"
