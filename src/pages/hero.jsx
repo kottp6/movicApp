@@ -72,18 +72,18 @@ export default function Hero() {
 
       {/* ✅ WhatsApp Floating Button */}
       {/* 📞 Phone Call Floating Button */}
-        <div className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-50">
-      <a
-        href="https://wa.me/201055854777"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Chat on WhatsApp"
-      >
-        <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-green-600 hover:bg-green-700 flex items-center justify-center shadow-lg transition-transform duration-300 hover:scale-110">
-          <Phone className="w-6 h-6 text-white" />
+        <div className="fixed z-50 bottom-4 right-4 sm:bottom-6 sm:right-6">
+          <a
+            href="https://wa.me/201055854777"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Chat on WhatsApp"
+          >
+            <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-green-600 hover:bg-green-700 flex items-center justify-center shadow-lg transition-transform duration-300 hover:scale-110">
+              <Phone className="w-6 h-6 text-white" />
+            </div>
+          </a>
         </div>
-      </a>
-    </div>
     </section>
   );
 }
