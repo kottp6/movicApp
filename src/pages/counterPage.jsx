@@ -53,9 +53,7 @@ export default function CounterPage() {
             Company Milestones
           </h2>
           <div className="w-24 h-1 bg-red-500 mx-auto mt-4 rounded-full" />
-          <p className="mt-4 text-lg text-gray-300 max-w-xl mx-auto">
-            Numbers that represent our growth, trust, and commitment to excellence.
-          </p>
+          
         </motion.div>
 
         {/* Counters */}
