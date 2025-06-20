@@ -24,6 +24,7 @@ export default function Home() {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 1 }}
+      className="w-[90%] mx-auto sm:w-full"
     >
         <Navbar></Navbar>
         <Hero></Hero>
