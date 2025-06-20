@@ -41,7 +41,7 @@ export default function Navbar() {
         <div className="md:hidden">
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="text-white focus:outline-none me-4"
+            className="text-white focus:outline-none me-6"
           >
             {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
