@@ -18,7 +18,7 @@ export default function Navbar() {
 
   return (
     <nav className="bg-slate-900 shadow-md fixed top-0 left-0 w-full z-50">
-      <div className="w-[90%] mx-auto flex justify-between items-center h-16 md:max-w-7xl md:px-6 lg:px-1">
+      <div className="w-[90%] ms-3 md:mx-auto flex justify-between items-center h-16 md:max-w-7xl md:px-6 lg:px-1">
         {/* Logo */}
         <div className="flex items-center space-x-2">
           <img src={logo} alt="MovicLogo" className="h-16 w-auto" />
@@ -41,7 +41,7 @@ export default function Navbar() {
         <div className="md:hidden">
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="text-white focus:outline-none me-6"
+            className="text-white focus:outline-none me-7"
           >
             {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
